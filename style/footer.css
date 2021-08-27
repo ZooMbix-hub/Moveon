@@ -1,0 +1,134 @@
+footer {
+    background: url('../img/back__footer.png') no-repeat;
+    background-size: 100% 100%;
+    height: auto;
+
+    padding: 0 100px;
+    padding-top: 150px;
+}
+
+.container__footer {
+    width: 100%;
+}
+
+.wrapper__footer {
+    width: 100%;
+
+    display: grid;
+    grid-template-columns: 1.5fr 1fr 0.8fr;
+
+    grid-gap: 50px;
+}
+
+.item__footer {
+    margin-bottom: 50px;
+}
+
+.item__footer {
+
+}
+
+.item__footer_1 {
+
+}
+
+.item__footer__title {
+    font-family: Jost;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 124%;
+    color: #FFFFFF;
+
+    margin-bottom: 13px;
+}
+
+.item__footer__text {
+    font-family: Jost;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 160%;
+    color: #FFFFFF;
+}
+
+.fab__container__footer .fab{
+    width: 35px;
+    height: 35px;
+
+    font-size: 1.4em;
+
+    padding: 7.5px;
+    padding-top: 7px;
+
+    text-align: left;
+}
+
+.footer-author {
+    height: 45px;
+    background-color:  #171819;
+    text-align: center;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-author p {
+    font-family: Jost;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 15px;
+    letter-spacing: 0.846154px;
+    color: #FFFFFF;
+}
+
+
+@media screen and (max-width:800px) {
+    footer {
+        background: url('../img/back__footer__mobile.png') no-repeat;
+        background-size: 100% 100%;
+        height: auto;
+
+        padding: 0 20px;
+        padding-top: 155px;
+    }
+
+    .wrapper__footer {
+        grid-template-columns: 1fr;
+    
+        grid-gap: 0px;
+    }
+
+    .item__footer {
+        margin-bottom: 30px;
+    }
+
+    .item__footer__title {
+        font-size: 22px;
+    
+        margin-bottom: 6px;
+    }
+    
+    .item__footer__text {
+        font-size: 14px;
+    }
+
+    .fab__container__footer .fab{
+        width: 35px;
+        height: 35px;
+    
+        font-size: 1.3em;
+    
+        padding: 8px;
+        padding-top: 7px;
+    
+        text-align: left;
+    }
+
+    .fab__container__footer .fab:hover{
+        cursor: pointer;
+    }
+    
+}
