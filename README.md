@@ -1,2 +1,2 @@
 # Moveon
-(with an adaptive device for the phone)
+✔Using Grid-layout (with an adaptive device for the phone)
